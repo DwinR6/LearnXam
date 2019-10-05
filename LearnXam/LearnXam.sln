@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXam.Android", "LearnXam\LearnXam.Android\LearnXam.Android.csproj", "{03A4AC87-3715-4B36-B61B-5570C2A290BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXam", "LearnXam\LearnXam\LearnXam.csproj", "{04B5CEF8-E29B-4A61-9587-719756D86AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A4AC87-3715-4B36-B61B-5570C2A290BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B5CEF8-E29B-4A61-9587-719756D86AEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83C7ED54-597E-42D3-8B80-B03660B3E083}
+	EndGlobalSection
+EndGlobal
