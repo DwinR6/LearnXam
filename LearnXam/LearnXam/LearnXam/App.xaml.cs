@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearnXam.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,11 +7,12 @@ namespace LearnXam
 {
     public partial class App : Application
     {
+        public static MasterDetailPage MasterDetail { get; set; }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginView());
         }
 
         protected override void OnStart()

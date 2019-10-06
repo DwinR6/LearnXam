@@ -4,31 +4,38 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="LearnXam.MainPage">
-
+             x:Class="LearnXam.View.LoginView">
     <StackLayout>
         <FlexLayout JustifyContent="Center" Direction="Column">
             <StackLayout>
+
                 <StackLayout>
                     <Label Text="Titulo"/>
                 </StackLayout>
+
                 <Frame>
                     <StackLayout>
+
                         <StackLayout>
                             <Image/>
-                            <Entry x:Name="EntryUser"/>
+                            <Entry x:Name="EntryUser" TextChanged="EntryUser_TextChanged"/>
                         </StackLayout>
+
                         <StackLayout>
                             <Image/>
-                            <Entry x:Name="EntryPass"/>
+                            <Entry x:Name="EntryPass" TextChanged="EntryUser_TextChanged"/>
                         </StackLayout>
-                    </StackLayout>                    
+
+                    </StackLayout>
                 </Frame>
+
                 <StackLayout>
-                    <Button Text="Log In"/>
+                    <Button Text="Log In" x:Name="BtnLogIn" Clicked="BtnLogIn_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label x:Name="LblError"/>
                 </StackLayout>
             </StackLayout>
         </FlexLayout>
     </StackLayout>
-
 </ContentPage>

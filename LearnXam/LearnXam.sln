@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXam.Android", "LearnXam\LearnXam.Android\LearnXam.Android.csproj", "{03A4AC87-3715-4B36-B61B-5570C2A290BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXam", "LearnXam\LearnXam\LearnXam.csproj", "{04B5CEF8-E29B-4A61-9587-719756D86AEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnXam", "LearnXam\LearnXam\LearnXam.csproj", "{04B5CEF8-E29B-4A61-9587-719756D86AEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
