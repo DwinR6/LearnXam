@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("CarouselView.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("SkiaSharpFormsDemos.Droid.Resource", IsApplication=true)]
 
-namespace CarouselView.Droid
+namespace SkiaSharpFormsDemos.Droid
 {
 	
 	
@@ -41,27 +41,18 @@ namespace CarouselView.Droid
 			}
 		}
 		
-		public partial class Color
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7F010000
-			public const int colorAccent = 2130771968;
+			public const int icon = 2130771968;
 			
-			// aapt resource value: 0x7F010001
-			public const int colorPrimary = 2130771969;
-			
-			// aapt resource value: 0x7F010002
-			public const int colorPrimaryDark = 2130771970;
-			
-			// aapt resource value: 0x7F010003
-			public const int launcher_background = 2130771971;
-			
-			static Color()
+			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Color()
+			private Drawable()
 			{
 			}
 		}
@@ -104,39 +95,17 @@ namespace CarouselView.Droid
 			}
 		}
 		
-		public partial class Mipmap
-		{
-			
-			// aapt resource value: 0x7F040000
-			public const int icon = 2130968576;
-			
-			// aapt resource value: 0x7F040001
-			public const int icon_round = 2130968577;
-			
-			// aapt resource value: 0x7F040002
-			public const int launcher_foreground = 2130968578;
-			
-			static Mipmap()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Mipmap()
-			{
-			}
-		}
-		
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7F050000
-			public const int AppCompatDialogStyle = 2131034112;
+			// aapt resource value: 0x7F040000
+			public const int AppCompatDialogStyle = 2130968576;
 			
-			// aapt resource value: 0x7F050001
-			public const int MainTheme = 2131034113;
+			// aapt resource value: 0x7F040001
+			public const int MainTheme = 2130968577;
 			
-			// aapt resource value: 0x7F050002
-			public const int MainTheme_Base = 2131034114;
+			// aapt resource value: 0x7F040002
+			public const int MainTheme_Base = 2130968578;
 			
 			static Style()
 			{
